@@ -145,9 +145,7 @@ if __name__ == '__main__':
 
     rootList = [
         os.path.join(args.dataRoot, "train_images"),
-        os.path.join(args.dataRoot, "train_labels"),
-        os.path.join(args.dataRoot, "train_connect_8_d1"),
-        os.path.join(args.dataRoot, "train_connect_8_d3"),
+        os.path.join(args.dataRoot, "train_labels")
     ]
 
     outRoot = args.outRoot
