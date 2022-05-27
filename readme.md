@@ -16,7 +16,15 @@
 		...
 ```
 
-## 1.2 生成connect标签
+## 1.2 样本裁剪
+
+```
+cd ${your project root}/dataGenerators
+python cropUtil.py --dataRoot ${your data root} --outRoot ${your data output root} --targteSize 512 --PaddingSize 128
+```
+
+
+## 1.3 生成connect标签
 
 ```
 cd ${your project root}/dataGenerators
@@ -43,13 +51,6 @@ python create_connection.py --base_dir D:\MyWorkSpace\dl_dataset\road_extraction
 		--- xxx.png
 		--- xxx.png
 		...
-```
-
-## 1.3 样本裁剪
-
-```
-cd ${your project root}/dataGenerators
-python cropUtil.py --dataRoot ${your data root} --outRoot ${your data output root} --targteSize 512 --PaddingSize 128
 ```
 
 # 2 模型训练
